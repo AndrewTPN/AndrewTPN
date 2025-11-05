@@ -1,16 +1,29 @@
-## Hi there 👋
+# Hi, I'm Tan Phu Nguyen (Andrew)
 
-<!--
-**AndrewTPN/AndrewTPN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Graduated from **Southern Alberta Institute of Technology (SAIT)** – Calgary, Canada (Sep 2025)  
+Aspiring **Full-Stack Developer** passionate about clean, secure, and scalable software.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Current Focus
+- Full-stack development with **React**, **Node.js**, and **SQL**
+- Cloud deployment using **Microsoft Azure**
+- Secure coding & design patterns in **Java** and **Python**
+
+---
+
+---
+
+### Tech Stack
+**Languages:** `Python` `Java` `C#` `JavaScript`  
+**Frontend:** HTML • CSS • React • Next.js • Bootstrap  
+**Backend:** Node.js • Flask • Spring Boot  
+**Database:** SQL • PostgreSQL • MongoDB  
+**Tools:** Azure • Docker • Git • VS Code • IntelliJ • Figma
+
+---
+
+### Let's Connect
+[Portfolio](https://andrewportfolio-delta.vercel.app/) • [Email](mailto:andrewng142@gmail.com) • [GitHub](https://github.com/AndrewTPN)
+
+> *“Keep coding, keep improving, stay curious.”*
