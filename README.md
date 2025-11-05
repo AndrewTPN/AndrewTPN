@@ -16,8 +16,8 @@ Aspiring **Full-Stack Developer** passionate about clean, secure, and scalable s
 
 ### Tech Stack
 **Languages:** `Python` `Java` `C#` `JavaScript`  
-**Frontend:** HTML • CSS • React • Next.js • Bootstrap  
-**Backend:** Node.js • Flask • Spring Boot  
+**Frontend:** HTML • CSS • React • Next.js  
+**Backend:** Node.js • Python
 **Database:** SQL • PostgreSQL • MongoDB  
 **Tools:** Azure • Docker • Git • VS Code • IntelliJ • Figma
 
