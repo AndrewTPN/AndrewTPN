@@ -10,15 +10,15 @@ A function is a block of code that can be used to perform a specific task.
 
 **Example:**
 
-```python
+ python
 name = input("What your name is?: ")  # This is how we collect the input from the user as variable name
 
 def greeting(name):  # This is how to define a function
     print("Hello, " + name)  # This is the output
 
 greeting(name)  # Function call
-```
 
+-------------------------------------------------
 ### Function vs Method
 
 **Function:** A function does not have any relationship with an object.
@@ -39,22 +39,23 @@ name.greeting()  # In here greeting belongs to the object name
 ```
 
 **Key Difference:** A method is a function that is abstracted from an object. With function, it does not have any relationship with an object.
+----------------------------------------------------------------------
 
 ### Format Specifier in Python
 
 - `{:.2f}` = Round the number to 2 decimal places
 - `{:.0f}` = Round the number to 0 decimal places
 - `{:.number}` = Allocate the number of decimal places
-
+----------------------------------------------------------------------
 ### Operators
 
 An operator is a symbol that is used to perform an operation. We have 2 kinds:
 
 1. **Normal syntax:** `(+, -, *, /, %, **, //)` - For basic calculations
 2. **Operator functions:** `(add, subtract, multiply, divide, modulo, power, floor division)` - For more complex calculations
-
+----------------------------------------------------------------------
 **Normal Syntax Examples:**
-```python
+
 1 + 1 = 2      # Addition
 1 - 1 = 0      # Subtraction
 1 * 1 = 1      # Multiplication
@@ -62,7 +63,6 @@ An operator is a symbol that is used to perform an operation. We have 2 kinds:
 1 % 1 = 0      # Modulo (remainder of division)
 3 ** 2 = 9     # Power (exponent)
 5 // 2 = 2     # Floor division (division rounded down to nearest integer)
-```
 
 **Operator Functions (using math module):**
 ```python
@@ -117,4 +117,85 @@ print(count_words(text))  # Output: 5
 text = "I am a software developer"
 print(text[0])  # Output: 'I' (first index of the string)
 ```
+-------------------------------------------------------------------
+# Data Structures
+# 
+# 1. Built-in (Core Python)
+# 
+# - List
+#   - append, insert, pop, remove
+#   - slicing
+#   - time complexity
+# 
+# - Tuple
+#   - immutability
+#   - packing / unpacking
+# 
+# - Set
+#   - union, intersection
+#   - unique elements
+# 
+# - Dictionary (Map)
+#   - key-value pairs
+#   - hashing
+#   - lookup efficiency O(1)
+# 
+# 2. Linear Data Structures
+# 
+# - Stack
+#   - push / pop
+#   - use list or collections.deque
+# 
+# - Queue
+#   - FIFO
+#   - deque / queue module
+# 
+# - Linked List
+#   - singly / doubly
+#   - custom class implementation
+# 
+# 3. Non-Linear Data Structures
+# 
+# - Tree
+#   - Binary Tree
+#   - Binary Search Tree (BST)
+#   - Traversals (Inorder, Preorder, Postorder)
+# 
+# - Graph
+#   - adjacency list
+#   - BFS / DFS
+#   - weighted vs unweighted
+# 
+# 4. Advanced / Specialized
+# 
+# - Heap (Priority Queue)
+#   - heapq (min-heap)
+# 
+# - Hash Table
+#   - dict internals
+# 
+# - Trie
+#   - prefix searching
+# 
+# - Union-Find (Disjoint Set)
+# 
+# 5. Algorithm Concepts (Must Know)
+# 
+# - Big-O Notation
+# - Recursion
+# - Sorting
+#   - Bubble, Merge, Quick
+# 
+# - Searching
+#   - Linear Search
+#   - Binary Search
+# 
+# 6. Practice & Real Use
+# 
+# - LeetCode / HackerRank
+# - Implement from scratch
+# - Apply to real projects
+#   (expense tracker, API data handling, backend logic)
+
+
 
