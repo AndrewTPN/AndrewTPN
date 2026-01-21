@@ -32,4 +32,19 @@ print(house_types)  # Output: ['bungalow', 'duplex', 'apartment']
 #insert method for list:
 house_types.insert(1, "cottage")  # inserts 'cottage' at index 1
 print(house_types)  # Output: ['bungalow', 'cottage', 'duplex', 'apartment']
+"-------------------------------------------------------------"
+#Slicing:
+"List slicing allows you to extract a portion of a list by specifying a start index, an end index, and an optional step value. "
+"The syntax for slicing is list[start:end:step]."
+#example for slicing:
+list_of_price = {
+    "apple": 4.99,
+    "banana": 1.99,
+    "cherry": 2.99,
+    "date": 3.49,
+    "elderberry": 5.99
+}
 
+"now we gonna sorted the list based on price, then slice the list to get the top 3 cheapest fruits."
+sorted_fruits = sorted(list_of_price.items(), key=lambda x: x[1]) #key = lambda x: x[1] means we are sorting based on the second item in the tuple (which is the price)
+    
