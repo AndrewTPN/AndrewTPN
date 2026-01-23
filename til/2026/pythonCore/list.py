@@ -1,5 +1,8 @@
 'List in python is a built-in data structure that help to store multiple items in a single variable. Lists are ordered, changeable, and allow duplicate values. They are defined by enclosing elements in square brackets [] and separating them with commas.'
-
+# single line comment
+'this is  a multi-line comment'
+'''this is also---- 
+----a multi-line comment'''
 #example of list
 
 my_list = [1, 2, 3, "apple", "banana", True, 3.14]'
