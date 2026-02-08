@@ -1,0 +1,27 @@
+# Two Sum (Easy)
+# Date: Jan 16, 2026
+#
+# Problem:
+# Given a list of numbers and a target, return the indices of two
+# different numbers that add up to the target.
+#
+# Approach:
+# While looping through the list, I keep a dictionary of numbers
+# I've already seen (value -> index). For each number, I check if
+# its complement (target - current number) is already in the dict.
+#
+# If yes, I return the two indices. If not, I store the current
+# number and move on.
+#
+# Important points:
+# - Using a hash map avoids the O(n^2) brute force solution.
+# - This works in one pass through the array.
+# - Duplicates are handled naturally by only matching with
+#   previously seen values.
+# - Negative numbers don't cause any issues.
+#
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+#
+# Example:
+# nums = [2, 7, 11, 15], target = 9  -> [0, 1]

@@ -27,7 +27,7 @@ Aspiring **Full-Stack Developer** passionate about clean, secure, and scalable s
 **Frontend:** HTML • CSS • React • Next.js  
 **Backend:** Node.js • Python 
 **Database:** SQL • PostgreSQL • MongoDB  
-**Tools:** Azure • Docker • Git • VS Code • IntelliJ • Figma
+**Tools:** Azure • Docker • Git • VS Code • Figma
 
 ---
 
